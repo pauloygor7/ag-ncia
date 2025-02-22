@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    margin: 0;
+}
+
+.naba {
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    align-items: center;
+    color: #34003F;
+    width: 100%;
+
+}
+
+.logo {
+    display: flex;
+    flex: 20%;
+    margin-left: 10%;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    flex: 70%;
+    justify-content: right;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    color: #34003F;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+.menu a:hover {
+    border-top: 4px solid #34003F;
+    color: #ff2978;
+}
+
+#sep {
+    margin-right: 10%;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #34003F;
+    color: white;
+    margin-left: 5%;
+}
+
+#sep:hover {
+    border: none;
+    background-color: #ff2978;
+}
+
+.h {
+    padding-top: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hea {
+    margin-left: 10%;
+    flex: 40%;
+    justify-content: center;
+    text-align: left;
+    color: #34003F;
+}
+
+.hea h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+
+}
+
+.hea p {
+    padding-bottom: 15px;
+}
+
+.heaimg {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+.btncontrato {
+    display: inline-block;
+    background: #ff2978;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btncontrato:hover {
+    background: #34003F;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 600px;
+    text-align: center;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 40px;
+    font-family: Lobster, serif;
+    color: #34003F;
+}
+
+.servico {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+    margin: 8px;
+    color: #34003F;
+    border: 1px solid #ff2978;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-text2 {
+    display: none;
+}
+
+.card:hover {
+    background-color: #ff2978;
+    color: white;
+    padding: 25px;
+}
+
+.card:hover .card-text1 {
+    display: none;
+}
+
+.card:hover .card-text2 {
+    display: inline-block;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(#77008f, #34003F, black);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+footer h2 {
+    font-size: 30px;
+}
+
+.whats {
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 80px;
+}
